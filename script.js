@@ -6,7 +6,7 @@ function verificar() {
     if (resposta == " ") {
         alert("escolha uma opção primeiro");
     }
-    // Corrigido: agora testamos a variável 'resposta'
+
     else if (resposta == "verdadeiro") {
         alert("parabéns!");
     }
