@@ -2,7 +2,7 @@
 let resposta = " ";
 
 function verificar() {
-    // Verifica se o usuário não escolheu nada
+    // se não clicar em nada
     if (resposta == " ") {
         alert("escolha uma opção primeiro");
     }
