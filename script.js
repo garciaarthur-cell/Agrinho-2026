@@ -1,16 +1,17 @@
-    // Google falou que ficaria mais fácil com uma variável 
+    // Google falou que ficaria mais fácil com uma variável, já a variável nome eu fiz a partir das minhas aulas de youtube do python kkkkk
 let resposta = " ";
+let nome = prompt("Qual é o seu nome?");
 
 function verificar() {
     // se não clicar em nada
     if (resposta == " ") {
-        alert("escolha uma opção primeiro");
+        alert(nome + ", escolha uma opção primeiro");
     }
 
     else if (resposta == "verdadeiro") {
-        alert("parabéns!");
+        alert("parabéns, " + nome + "!");
     }
     else {
-        alert("resposta errada");
+        alert(nome + ", resposta errada");
     }
 }
