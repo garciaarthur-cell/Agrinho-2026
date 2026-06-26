@@ -4,13 +4,13 @@ let resposta = " ";
 function verificar() {
     // se não clicar em nada
     if (resposta == " ") {
-        resultado.innerText("escolha uma opção primeiro");
+        alert("escolha uma opção primeiro");
     }
     // Corrigido: agora testamos a variável 'resposta'
     else if (resposta == "verdadeiro") {
-        resultado.innerText("parabéns!");
+        alert("parabéns!");
     }
     else {
-        resultado.innerText("resposta errada");
+        alert("resposta errada");
     }
 }
