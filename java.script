@@ -1,13 +1,16 @@
     // Google falou que ficaria mais fácil com uma variável 
 let resposta = " ";
+
 function verificar() {
+    // Verifica se o usuário não escolheu nada
     if (resposta == " ") {
-        alert("escolha um opção primeiro");
+        alert("escolha uma opção primeiro");
     }
-    else if (value == "verdadeiro") {
-        alert("parabéns");
+    // Corrigido: agora testamos a variável 'resposta'
+    else if (resposta == "verdadeiro") {
+        alert("parabéns!");
     }
-    else{
-        alert("resposta errada")
+    else {
+        alert("resposta errada");
     }
 }
