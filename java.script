@@ -1,0 +1,13 @@
+    // Google falou que ficaria mais fácil com uma variável 
+let resposta = " ";
+function verificar() {
+    if (resposta == " ") {
+        alert("escolha um opção primeiro");
+    }
+    else if (value == "verdadeiro") {
+        alert("parabéns");
+    }
+    else{
+        alert("resposta errada")
+    }
+}
